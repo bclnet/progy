@@ -139,6 +139,18 @@ All language have reserved words refered to as keywords. These help direct the l
 
 If not a keyword you can define new symbols to represent elements in your code. Symbols sometimes have scope and access level definitions.
 
+### TBD
+Image (Executable, Dynamic Library)
+Tool-chain
+Compiler
+Linker
+Debugger
+Library
+Integrated Development Environment (IDE)
+
+arch, release, static/dynamic, single-threaded/multi-threaded
+
+
 # Langage types
 
 **type-safe language** vs **type-less language** - a language that uses defined data types vs a language that uses dynamic data types which can be of any type and structure.

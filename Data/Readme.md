@@ -1,4 +1,4 @@
-# Values
+# Data
 
 Multiple wires or signals can carry information, in a digital space we call these `bits`. The simpliest representation of `bit` information is a numerical representation.
 
@@ -94,6 +94,9 @@ Value | Two's Complement | Unsigned
 127 | 0111 1111 | 127
 
 
+## Floating-point numbers
+TBD
+
 ## Primitives
 We need a way construct data structures. Primitives are the smallest data block, like lego blocks, and are in 1, 2, 4 and 8 length blocks.
 
@@ -105,6 +108,11 @@ Name | Signed | Name | Unsigned | Storage
 `short` | -32,768 to 32,767 | `ushort` | 0 to 65,535 | 2 bytes (16bits)
 `int` | -2,147,483,648 to 2,147,483,647 | `uint` | 0 to 4,294,967,295 | 4 bytes (32bits)
 `long` | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 | `ulong` | 0 to 18,446,744,073,709,551,615 | 8 bytes (64bits)
+
+Name | Signed | Storage
+--- | --- | ---
+`single` | 1.175494351 E - 38 to 3.402823466 E + 38 | 4 bytes (32bits)
+`double` | 2.2250738585072014 E - 308 to 1.7976931348623158 E + 308 | 8 bytes (64bits)
 
 ## Records
 New custom named types can be created by combining primitives, or previously defined Record types, creating complex data structures.
