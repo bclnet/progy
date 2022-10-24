@@ -21,12 +21,12 @@ The normal number system of `base10[0:9]` and `base2[0:1]` are different represe
 
 *Example of math with binary*
 ```example
-base10: 3 + 4 = 5
+base10: 3 + 4 = 7
 base2: 0011 + 0100 = 0111
 ```
 
 ## Hexadecimal - base16
-Bit representation in `base2[0:2]` is verbose, so we use a 4 bit grouping (example: `0101`), and represent it as `base16[0:9,A:F]`.
+Bit representation in `base2[0:1]` is verbose, so we use a 4 bit grouping (example: `0101`), and represent it as `base16[0:9,A:F]`.
 
 4 bits | Hex | 4 bits | Hex
 --- | --- | --- | ---
@@ -41,7 +41,7 @@ Bit representation in `base2[0:2]` is verbose, so we use a 4 bit grouping (examp
 
 *Example of math with hex*
 ```example
-3 + 4 = 5
+3 + 4 = 7
 in hex is:
 3 + 9 = C
 
@@ -94,6 +94,9 @@ Value | Two's Complement | Unsigned
 127 | 0111 1111 | 127
 
 
+## Decimal
+TBD
+
 ## Floating-point numbers
 TBD
 
@@ -118,3 +121,27 @@ Name | Signed | Storage
 New custom named types can be created by combining primitives, or previously defined Record types, creating complex data structures.
 
 Similar to lego blocks, preassembled lego structures can be reused to speed up assembly while simpifiying the overrall design. Records provide the same function in data structures.
+
+## Verification Digests
+used for verifying a block of data
+
+Name | Description
+--- | --- | ---
+`crc` | TBD
+`md5`, `sha1`, `sha256` | TBD
+
+---
+## Glossary
+Name | Description
+--- | ---
+`bit` | single bit of a data
+`byte` | 8 bits
+`word` | 2 bytes
+`dword` | Double Word - 2 words
+`qword` | Quad Word - 4 words
+`signed` | A possibly signed number
+`unsigned` | A number which can never be signed
+`integer`, `whole`, `number` | A standard whole number
+`decimal` | A number with a fractional part (ex: 1.5)
+`float`, `double`, `single`, `real` | A number with a fractional part which floats (ex: 1.5)
+`record`, `struct`, `class` | A data structure comprised of primatives or other records

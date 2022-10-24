@@ -1,37 +1,42 @@
-## DATA II ##
 
-## ENUMERATION ##
+## ENUMERATION
 
 for (int = 0; i < 10; i++) { }
 
 traverse a linear length
 
 
-## STACK ##
+## STACK
 
-## QUEUE ##
+## QUEUE
 
-## HASH ##
+## HASH
 
 
-## COLLECTIONS ##
+## COLLECTIONS
 
 array pros and cons
 
-### LIST ###
+### LIST
 
 * linked-list
 * doubly linked-list
 * expanding list
 
 
-### TREES ###
+### TREES
 
 * binary tree
 * avl tree
 * b-tree
 
 
-### CLUSTERING ###
+### CLUSTERING
 
 Data must be structured around a phyical location.
+
+## STREAMING
+
+return yeild object
+
+linq

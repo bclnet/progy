@@ -1,7 +1,6 @@
 # C Symantics
 
 
-
 ### ARRAY ###
 - Player1 int, Player2 int, Player3 int -> Player int[3]
 - Player + 3 * sizeof(int)

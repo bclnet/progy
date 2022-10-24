@@ -1,6 +1,5 @@
 # ISA - INSTRUCTION LEVEL ARCHITECTURE #
 
-
 ## CPU - Central Processing Unit
 
 a cpu is considered a load/store machine. It can only remember a few things. so it contantly needs to load from memory, preform an action, and store the result back to memory.

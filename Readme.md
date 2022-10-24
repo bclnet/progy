@@ -2,19 +2,19 @@
 Crash course in programming and computer science
 
 ## [Data](/Data/)
-Representing data
+Data representing values or symbols
+
+## [Data Structures](/Data%20Structures/)
+Data structures
 
 ## [Languages](/Languages/)
 Languages and features
 
-## [Mechanics](/Mechanics/)
-Water, steam and electricity
+## [Processing](/Processing/)
+The way processing occurs
 
-## [Storage & Cache](/Storage%20%26%20Cache/)
-Storing and caching information
+## [Physics](/Physics/)
+The physical structures
 
-## [Fabrication](/Fabrication/)
-Creating small machines
-
-## [Silicon Engines](/Silicon%20Engines/)
-Asic and CPUs
+## [Tools](/Tools/)
+Tools and ideas

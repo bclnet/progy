@@ -1,37 +1,37 @@
 # Languages
+Computers do not understand our language and see everything as a stream of numbers. We must build a process to convert human languages to machine languages.
 
-computers do not understand our language and see everything as streams of numbers.
 
 ## Tokenize
 Tokenization is the process of breaking a stream of numbers into continuous tokens of characters while breaking on whitespace
 
 ```psudo
-1.234 sky morey;
+1.234 my name;
 
 BECOMES
 number: 1.234
-string: sky
-string: morey
-string: ;
+string: my
+string: name
+end: ;
 ```
 
 sometimes we want to represent a token with a space retained, use quotes
 
 ```psudo
-"sky morey";
+"my name";
 
 BECOMES
-string: sky morey
-string: ;
+string: my name
+end: ;
 ```
 
 ## Escaping
 adding a special encoding character like " introduces an issue if we want to espace the " and represent the literal " in a token.
 
 ```psudo
-"sky \"morey\" was here";
+"my \"name\" was here";
 --- becomes ---
-string: sky "morey" was here
+string: my "name" was here
 string: ;
 ```
 
@@ -45,7 +45,6 @@ c, c++, c#, javascript:
 \n = return
 \t = tab
 ```
-
 
 javascript:
 ```
@@ -82,25 +81,25 @@ The `Lexicon` is where the compiler, or instruction handler, applies meaning to 
 Based on the language the compiler will understand the syntax or throw a syntax error.
 
 *`SQL`*
-```
+```sql
 Select MyField
 From MyTable
 Where MyField = 'MyValue';
 ```
 
 *`c`, `c++`*
-```
+```c
 int age = 10;
 printf("%d\n", age);
 ```
 
 *`HTML`*
-```
+```html
 <a href="value">text</a>
 ```
 
 *`CSS`*
-```
+```css
 .small { background: solid black }
 ```
 
@@ -132,34 +131,11 @@ let age = 3;
 let string = `my ${age}`;
 ```
 
-
 ## Keywords & Symbols
 
 All language have reserved words refered to as keywords. These help direct the language with your intent.
 
 If not a keyword you can define new symbols to represent elements in your code. Symbols sometimes have scope and access level definitions.
-
-### TBD
-Image (Executable, Dynamic Library)
-Tool-chain
-Compiler
-Linker
-Debugger
-Library
-Integrated Development Environment (IDE)
-
-arch, release, static/dynamic, single-threaded/multi-threaded
-
-
-# Langage types
-
-**type-safe language** vs **type-less language** - a language that uses defined data types vs a language that uses dynamic data types which can be of any type and structure.
-**low-level language** vs **high-level language** - a language that operates closer to metal vs a language operates more virtual
-**Sequential language** - a list of instructions with jump instructions for flow-control.
-**Procedural language** - functions containing sequential instructions with calls to other functions for flow-control.
-**Proto-typical language** - templated functions containing sequential instructions which are copied to new instances, and call other functions for flow-control.
-**Functional language** - truly function language with strict immutable data types.
-
 
 
 ## [Language : Assembly](/Assembly/)
@@ -178,12 +154,27 @@ C and C++ share a common root language
   - #define
   - #ifndef
 
+## [Language : HTML](/HTML/)
+Hyper Text Markup Language (HTML) is a text formating language used by the web.
+
+
+## [Language : Markdown](/Markdown/)
+A simple text formating language
+
 
 ## [Language : SQL Server](/SQL%20Server/)
-Low level ISA
+Structured Query Language (SQL) is a language used to gather information.
 
-## [Data Structures](/Data%20Structures/)
-Data structures
-
-## [Change Control](/Change%20Control/)
-Tools and ideas to assist with change (git)
+---
+# Glossary
+Name | Description
+--- | ---
+`escaping` | Escaping (see above)
+`macro expansion` | Macro expansion (see above)
+`string interpolation` | String interpolation (see above)
+`type-safe language` vs `type-less language` | a language that uses defined data types vs a language that uses dynamic data types which can be of any type and structure.
+`low-level language` vs `high-level language` | a language that operates closer to metal vs a language operates more virtual
+`sequential language` | a list of instructions with jump instructions for flow-control.
+`procedural language` | functions containing sequential instructions with calls to other functions for flow-control.
+`proto-typical language` | templated functions containing sequential instructions which are copied to new instances, and call other functions for flow-control.
+`functional language` | truly function language with strict immutable data types.

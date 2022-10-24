@@ -1,5 +1,6 @@
+# Primitives
 
-
+Each language has its own primitives but many are similar across languages
 
 ## Language : C, C++
 
