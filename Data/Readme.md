@@ -126,9 +126,10 @@ Similar to lego blocks, preassembled lego structures can be reused to speed up a
 used for verifying a block of data
 
 Name | Description
---- | --- | ---
-`crc` | TBD
-`md5`, `sha1`, `sha256` | TBD
+--- | ---
+`crc` | A cyclic redundancy check is an error-detecting code commonly used in digital networks and storage devices to detect accidental changes to digital data.
+`md5` | The MD5 message-digest algorithm is a cryptographically broken but still widely used hash function producing a 128-bit hash value.
+`sha1`, `sha256` | In cryptography, SHA-1 is a cryptographically broken but still widely used hash function which takes an input and produces a 160-bit hash value known as a message digest.
 
 ---
 ## Glossary
