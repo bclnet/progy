@@ -2,6 +2,11 @@
 
 Javascript is a type-less, proto-typical language that uses the {} scope operator, it is similar to C.
 
+
+## C like semantics
+* commenting with // line or /* */ block
+* whitespace does not matter
+* every statement ends in ;
 - `var {symbol}`, `let {symbol}`, `const {symbol}` - defines a new variable 
 - literal strings use `'` or `"` inter-changeably, `\`` can be used for string-interpolation.
 - literals are scalar, arrays or objects: `{scaler}` defines a scaler, `[]` defines an array, `{}` defines an object

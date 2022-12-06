@@ -59,11 +59,11 @@ Ohms | measures electronic resistance | R
 ## Digital Abstraction
 The real world is complex and everchanging, and system design becomes complex and hard to engineer.
 
-Instead engineers operate in a fantisy world, a `Digital Abstraction` of the real world instead of the real world, where these complexies no longer exists. 
+Instead engineers operate in a fantasy world, a `Digital Abstraction` of the real world instead of the real world, where these complexies no longer exists. 
 
 In this new world: Voltage, amperage, resistance, inductance, capacitance, radiation, presure, temperature no longer exist. Wires exist in only one of two states: On and Off, or 0 and 1 respectively.
 
-When refering to real world principals or finite values, we use the term `Analog` vs the `Digital` term for the fantasty world. 
+When refering to real world principals or finite values, we use the term `Analog` vs the `Digital` term for the fantasy world. 
 
 
 ```
