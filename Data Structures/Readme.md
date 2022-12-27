@@ -52,6 +52,11 @@ Month.Players = 100
 sizeof(Month)=9
 
 
+### POINTERS
+
+tbd
+
+
 ### LINKED LIST
 an ordered set of data elements, each containing a link to its successor (and sometimes its predecessor).
 

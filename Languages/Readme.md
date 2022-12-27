@@ -172,8 +172,13 @@ Name | Description
 `escaping` | Escaping (see above)
 `macro expansion` | Macro expansion (see above)
 `string interpolation` | String interpolation (see above)
-`type-safe language` vs `type-less language` | a language that uses defined data types vs a language that uses dynamic data types which can be of any type and structure.
 `low-level language` vs `high-level language` | a language that operates closer to metal vs a language operates more virtual
+`type-safe language` vs `type-less language` | a language that uses defined data types vs a language that uses dynamic data types which can be of any type and structure.
+`ide (integrated development environment)` | tbd
+`tool-chain` | tbd
+`compiler` | tbd
+`linker` | tbd
+`debugger` | tbd
 `sequential language` | a list of instructions with jump instructions for flow-control.
 `procedural language` | functions containing sequential instructions with calls to other functions for flow-control.
 `proto-typical language` | templated functions containing sequential instructions which are copied to new instances, and call other functions for flow-control.
