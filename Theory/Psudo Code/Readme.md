@@ -1,6 +1,6 @@
-# Psudo Code
+# Pseudo Code
 
-Psudo code is a standard-less language never processed by a computers.
+Pseudo code is a standard-less language never processed by a computers.
 
 The whole language is completly madeup by anyone on the fly, and more of a pattern for composing your thoughts.
 
