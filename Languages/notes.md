@@ -1,1 +1,0 @@
-arch, release, static/dynamic, single-threaded/multi-threaded
